@@ -4,7 +4,7 @@ import MyDB
 db = MyDB.DB()
 
 #query to database to select device
-query = "SELECT * FROM Zones;"
+query = "SELECT * FROM snippets_analysis;"
 
 #execute the query
 db.execute(query)
